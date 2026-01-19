@@ -89,3 +89,36 @@ pre {
   border-radius: 10px;
   overflow-x: auto;
 }
+.lessons {
+  padding: 3rem 1rem;
+}
+
+.lesson-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.lesson-list li {
+  background: white;
+  margin: 1rem auto;
+  padding: 1.2rem;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px var(--sombra);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.lesson-list li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px var(--sombra);
+}
+
+.lesson-list h3 {
+  color: var(--rosa-antigo);
+  margin-bottom: 0.5rem;
+}
+
+.lesson-list p {
+  color: var(--marrom-suave);
+}
