@@ -10,10 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (runCode) {
     runCode.addEventListener("click", () => {
-      const output = document.getElementById("output");
-      output.innerText = "Olá, mundo! 🌸 Bem-vinda ao JavaScript com FlowerCode!";
-      output.style.marginTop = "1rem";
-      output.style.color = "#E8AEB7";
+      window.location.href = "js-lessons.html";
     });
   }
 });
