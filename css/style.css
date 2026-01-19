@@ -1,0 +1,91 @@
+:root {
+  --rosa-claro: #F9D5D3;
+  --rosa-antigo: #E8AEB7;
+  --areia: #F3E9DD;
+  --bege: #EADBC8;
+  --marrom-suave: #7A5C58;
+  --sombra: rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--marrom-suave);
+  background-color: var(--areia);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: var(--rosa-claro);
+  padding: 1rem;
+  box-shadow: 0 2px 5px var(--sombra);
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--marrom-suave);
+  margin: 0 0.8rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--rosa-antigo);
+}
+
+.welcome {
+  padding: 4rem 1rem;
+}
+
+button {
+  background-color: var(--rosa-antigo);
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--rosa-claro);
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: var(--bege);
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.code-example {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px var(--sombra);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+pre {
+  text-align: left;
+  background: var(--areia);
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: auto;
+}
