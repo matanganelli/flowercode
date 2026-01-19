@@ -122,3 +122,41 @@ pre {
 .lesson-list p {
   color: var(--marrom-suave);
 }
+.lesson-page {
+  padding: 3rem 1rem;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.lesson-page h2 {
+  text-align: center;
+  color: var(--rosa-antigo);
+}
+
+.lesson-content {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px var(--sombra);
+}
+
+.lesson-content h3 {
+  color: var(--rosa-antigo);
+}
+
+.output-demo {
+  background: var(--areia);
+  border-radius: 10px;
+  padding: 1rem;
+  font-family: monospace;
+  color: var(--marrom-suave);
+  margin-bottom: 1.5rem;
+}
+
+#nextLesson {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--rosa-antigo);
+  color: white;
+}
